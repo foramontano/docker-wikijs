@@ -23,7 +23,18 @@ docker-compose up -d
 ```
 
 ## Customization
-Use the 
+Set your images
+### Images:
+
+### Colours
+Example with some colours I've changed
+- Choose the colours you want to change (using your browser inspection tool)
+- Acces Wiki.js container
+- Seach for css/js files contain the coulour you want to change
+- Change the colour (using sed command)
+- Copy css/js files you've changed to your customization-dir (having into account the dir structure)
+
+the result will be the base tou'll use next time you have to remove & create the Wiki.js web 
 
 Access to Wiki.js container home
 ```
