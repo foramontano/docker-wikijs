@@ -77,8 +77,14 @@ grep -r -l -i "#1976d2" .
 docker exec wikijs_wiki_1 sed -i 's/#1976d2/#175676/g' ./js/*.js
 docker exec wikijs_wiki_1 sed -i 's/#1976d2/#175676/g' ./css/*.css
 
-# Es necesario editar el fichero app.js
-docker cp wikijs_wiki_1:/wiki/assets/js/app.js ~/wiki.js/personalizar/wiki/assets/js/
+```
 
+It's necesary to edit app.js file to update #1976d2 colour
+```
+docker cp wikijs_wiki_1:/wiki/assets/js/app.js ~/customization-dir/wiki/assets/js/
+```
+Change manually the colour & ...
+```
 docker cp ~/wiki.js/personalizar/wiki/assets/  wikijs_wiki_1:/wiki/
 ```
+
