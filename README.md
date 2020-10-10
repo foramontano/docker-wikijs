@@ -2,7 +2,7 @@
 Issues to take into account:
 
 ## Configuration
-Cerate your **.env-wikijs** file to set DB config fields:
+Create your **.env-wikijs** file to set DB config fields:
 
 ```
 # Example
